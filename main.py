@@ -11,7 +11,7 @@ def download_video(url, output_path):
         print(f"[DONE] Video downloaded succesfully!")
 
     except Exception as e:
-        print(f"Could not download the video: {str(e)}")
+        print(f"[ERROR] Could not download the video: {str(e)}")
 
 
 def main():

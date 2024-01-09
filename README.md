@@ -4,6 +4,7 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
+- [Usage](#usage)
 
 ## About <a name = "about"></a>
 
@@ -24,7 +25,7 @@ git clone https://github.com/Toorreess/yt-video-downloader
 
 ### Installing
 
-If you want use a virtual environment to install the requirements locally, first create and activate it:
+If you want use a virtual environment to install the libraries only for this project, first create it and activate it:
 
 ```
 python -m venv venv
@@ -33,7 +34,7 @@ python -m venv venv
 .\venv\Scripts\activate
 
 # Unix systems
-source /venv/bin/activate
+source venv/bin/activate
 ```
 
 Then, install the requirements:
@@ -41,3 +42,13 @@ Then, install the requirements:
 ```
 pip install -r requirements.txt
 ```
+
+## Usage <a name = "usage"></a>
+
+To define the path where you want the videos to be downloaded, you must complete the output path in the config.yml file. For example:
+
+```
+output_path: "/home/Toorreess/Videos"
+```
+
+Then, you run the main.py in terminal and follow the instructions.
